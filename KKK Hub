@@ -23,3 +23,9 @@ local args = {
 game:GetService("ReplicatedStorage"):WaitForChild("fewjnfejwb3"):FireServer(unpack(args))
 end
 end)
+
+TestSection:NewButton("Blox Fruit", "Cokka Hub", function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/UserDevEthical/Loadstring/main/CokkaHub.lua")()
+end)
+
+
